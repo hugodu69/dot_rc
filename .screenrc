@@ -1,0 +1,37 @@
+startup_message off
+
+chdir /home/simplonco/Bureau/
+
+#pour afficher une ligne avec des infos
+hardstatus on
+#pour qu'elle s'affiche en bas
+hardstatus alwayslastline
+#tout ce qui n'est pas precede de % s'affiche tel quel
+#tout ce qui est entre {} formate le texte
+# = format texte inchange
+# KW couleur arriere bright black, couleur texte bright white
+# %n numero de windows
+# %t title de windows
+# %= remplis les espaces vides
+# %c current time
+# %d day
+# %m month
+# %y year
+hardstatus string "%{= KW}%n %t %=%c %D %d-%m-%Y"
+#hide hardstatus: ctrl-a f
+bind f eval "hardstatus ignore"
+#show hardstatus: ctrl-a f
+bind F eval "hardstatus alwayslastline"
+
+#screen open a new windows
+# -t assigne un titre
+# vim appel vim avec l'option -n pour eviter les .swp
+screen -t shell vim -n /home/simplonco/Bureau/fiches_txt/shell.txt
+screen -t git vim -n /home/simplonco/Bureau/fiches_txt/git.txt
+screen -t screen vim -n /home/simplonco/Bureau/fiches_txt/screen.txt
+screen -t node vim -n /home/simplonco/Bureau/fiches_txt/node.txt
+screen -t react vim -n /home/simplonco/Bureau/fiches_txt/react.txt
+screen -t sites vim -n /home/simplonco/Bureau/fiches_txt/sites.txt
+screen -t vim vim -n /home/simplonco/Bureau/fiches_txt/vim.txt
+
+screen
