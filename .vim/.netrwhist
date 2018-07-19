@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/simplonco/Bureau/cv/cv.css'
+let g:netrw_dirhist_2='/home/simplonco/Bureau/cv'
+let g:netrw_dirhist_3='/home/simplonco/Bureau'
+let g:netrw_dirhist_4='/home/simplonco/Bureau/04_histoireInternet_txt'
+let g:netrw_dirhist_5='/home/simplonco/Bureau/17_triangle_js/triangle.js'
+let g:netrw_dirhist_6='/home/simplonco/Bureau/matthieutest'
+let g:netrw_dirhist_7='/home/simplonco/Bureau/bookstore/app/routes/book.js'
+let g:netrw_dirhist_8='/home/simplonco/Bureau/62_bookstore_node/src/routes/users.js'
+let g:netrw_dirhist_9='/home/simplonco/Bureau/66_calculatrice_react/.git'
